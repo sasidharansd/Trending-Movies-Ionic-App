@@ -15,7 +15,8 @@
         <p> {{ movie?.release_date | date: 'y' }} </p>
       </ion-label>
 
-      <ion-badge slot="end"> {{ movie.vote_average }}</ion-badge>
+      <ion-badge slot="end" *ngIf="movie.vote_average > 6" color="success"> {{ movie.vote_average }}</ion-badge>
+      <ion-badge slot="end"  *ngIf="movie.vote_average <= 6" color="danger"> {{ movie.vote_average }}</ion-badge>
     </ion-item>
   </ion-list>
 
