@@ -3,5 +3,5 @@ This app displays movies which are trending currently as well as details of the 
 
 ![Alt Text](https://github.com/sasidharansd/Trending-Movies-Ionic-App/blob/main/Trending_apps_gif1.gif)
 
-Fetch more movies as we scroll to bottom with an infinite loading:
+
 ![ALt_Text](https://github.com/sasidharansd/Trending-Movies-Ionic-App/blob/main/Trending_apps_gif2.gif)
