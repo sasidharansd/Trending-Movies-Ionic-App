@@ -2,7 +2,7 @@
 This is a mobile application built using the Angular Ionic framework that displays a list of trending movies along with their ratings. It also allows users to view more details about a movie, including its genres and budget.
 
 ## Features
-  - Displays a list of trending movies fetched from the TMDB API
+  - Displays a list of trending movies fetched from the movie DB (TMDB) API
   - Shows each movie's rating alongside its title and poster image
   - Allows users to click on a movie to view more details
   - Displays the movie's genres and budget on the details page
